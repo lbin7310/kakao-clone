@@ -1,0 +1,125 @@
+.more {
+  background-color: #F2F2F2;
+}
+.more .more__header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 10px solid #F2F2F2;
+  padding: 15px;
+  background-color: white;
+}
+
+.more .more-header__column{
+  display:flex;
+  align-items: center;
+}
+
+
+.more-header__column img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.more-header__info .more-header__title{
+  font-size: 23px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.more-header__info .more-header__subtitle{
+  font-size: 15px;
+  color: #9F9F9F;
+}
+
+.more-header__column i {
+  top: 35px;
+  right: 30px;
+  color: #4E3837;
+}
+
+.more .more__options{
+  display:flex;
+}
+
+.more__option img{
+  width: 60px;
+  height: 60px;
+}
+
+.more__options{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 10px solid #f2f2f2;
+  background-color: white;
+}
+
+.more__options .more__option{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  color:  #4E3837
+}
+
+.more__option i {
+  padding-bottom: 15px;
+}
+
+.more__plus-friends{
+  background-color: white;
+}
+
+.more__plus-friends .plus-friends__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.plus-friends__header .plus-friends__title{
+  font-size: 20px
+}
+
+.plus-friends__header .plus-friends__learn-more{
+  color: #ADADAD;
+}
+
+.plus-friends__items{
+  border-bottom: 10px solid #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+.plus-friends__items .plus-friends__item{
+  width: 50%
+}
+.plus-friends__item i {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.plus-friends__item .plus-friends__items-title{
+  font-size: 15px;
+}
+
+.more__links{
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.more__links .more__option{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
