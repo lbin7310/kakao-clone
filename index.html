@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Friends</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <hearder>
+  <header class="top-header">
     <div class="header__top">
       <div class="header__column">
         <i class="fa fa-plane"></i>
@@ -28,13 +29,13 @@
         <span class="header__text">Manage</span>
       </div>
       <div class="header__column">
-        <span class="header__text">Friends <span class="header__text">1</span></span>
+        <span class="header__text">Friends <span class="header__number">1</span></span>
       </div>
       <div class="header__column">
         <i class="fa fa-cog fa-lg"></i>
       </div>
     </div>
-  </hearder>
+  </header>
   <main class="friends">
     <div class="search-bar">
       <i class="fa fa-search"></i>
@@ -75,22 +76,22 @@
     </section>
   </main>
   <nav class="tab-bar">
-      <a href="index.html" class="tab-bar__tab tab-bar__tab-selected">
-        <i class="fa fa-user"></i>
-        <span class="tap-bar__title">Friends</span>
-      </a>
-      <a href="chats.html" class="tab-bar__tab">
-        <i class="fa fa-comment"></i>
-        <span class="tap-bar__title">Chats</span>
-      </a>
-      <a href="find.html" class="tab-bar__tab">
-        <i class="fa fa-search"></i>
-        <span class="tap-bar__title">Find</span>
-      </a>
-      <a href="more.html" class="tab-bar__tab">
-        <i class="fa fa-ellipsis-h"></i>
-        <span class="tap-bar__title">More</span>
-      </a>
-    </nav>
+    <a href="index.html" class="tab-bar__tab tab-bar__tab--selected">
+      <i class="fa fa-user"></i>
+      <span class="tab-bar__title">Friends</span>
+    </a>
+    <a href="chats.html" class="tab-bar__tab">
+      <i class="fa fa-comment"></i>
+      <span class="tab-bar__title">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar__tab">
+      <i class="fa fa-search"></i>
+      <span class="tab-bar__title">Find</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fa fa-ellipsis-h"></i>
+      <span class="tab-bar__title">More</span>
+    </a>
+  </nav>
 </body>
 </html>
