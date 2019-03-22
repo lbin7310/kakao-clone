@@ -5,7 +5,13 @@
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 2;
 }
+
+.top-header a {
+  color: white;
+}
+
 .top-header .header__top,
 .top-header .header__bottom{
   display: flex;
@@ -14,11 +20,9 @@
 .top-header .header__top{
   margin-bottom: 15px;
   font-size: 12px;
-  padding: 0 20px 0 0;
 }
 .top-header .header__bottom{
   margin: 0 10px;
-  padding: 0 20px 0 0;
 }
 .top-header .header__column {
   width: 33%;

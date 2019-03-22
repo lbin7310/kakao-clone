@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="top-header">
+  <header class="top-header top-header--transparent">
     <div class="header__top">
       <div class="header__column">
         <i class="fa fa-plane"></i>
@@ -39,23 +39,27 @@
     </div>
   </header>
   <main class="profile">
-    <header class="proflie__header">
-      <img src="images/avatar.jpg" alt="">
-      <h3 class="profile__header-title">Kimkibin</h3>
-    </header>
-    <input type="text" placeholder="lbin7310@gmail.com">
-    <div class="profile_actions">
-      <div class="profile_action">
-        <span class="profile__action-circle">
-          <i class="fa fa-comment-o fa-2x"></i>
-        </span>
-        <span class="profile_action-title">My Chatroom</span>
+    <header class="profile__header">
+      <div class="profile__header-container">
+          <img src="images/avatar.jpg" alt="">
+          <h3 class="profile__header-title">Kimkibin</h3>
       </div>
-      <div class="profile_action">
-        <span class="profile__action-circle">
-          <i class="fa fa-pencil fa-2x"></i>
-        </span>
-        <span class="profile_action-title">Edit Profile</span>
+    </header>
+    <div class="profile-container">
+      <input type="text" placeholder="lbin7310@gmail.com">
+      <div class="profile_actions">
+        <div class="profile_action">
+          <span class="profile__action-circle">
+            <i class="fa fa-comment-o fa-2x"></i>
+          </span>
+          <span class="profile_action-title">My Chatroom</span>
+        </div>
+        <div class="profile_action">
+          <span class="profile__action-circle">
+            <i class="fa fa-pencil fa-2x"></i>
+          </span>
+          <span class="profile_action-title">Edit Profile</span>
+        </div>
       </div>
     </div>
   </main>
